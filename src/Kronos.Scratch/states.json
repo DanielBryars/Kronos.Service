@@ -1,0 +1,1792 @@
+﻿[
+  {
+    "attributes": {
+      "azimuth": 161.86,
+      "elevation": 26.79,
+      "friendly_name": "Sun",
+      "next_dawn": "2019-10-19T06:01:09+00:00",
+      "next_dusk": "2019-10-18T17:43:17+00:00",
+      "next_midnight": "2019-10-18T23:51:06+00:00",
+      "next_noon": "2019-10-18T11:51:23+00:00",
+      "next_rising": "2019-10-19T06:35:19+00:00",
+      "next_setting": "2019-10-18T17:09:10+00:00",
+      "rising": true
+    },
+    "context": {
+      "id": "1c38de4d07e847acab28a232c74a99c3",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sun.sun",
+    "last_changed": "2019-10-18T08:13:19.252287+00:00",
+    "last_updated": "2019-10-18T10:45:40.001876+00:00",
+    "state": "above_horizon"
+  },
+  {
+    "attributes": {
+      "friendly_name": "HeatingTemp",
+      "initial": 18.0,
+      "max": 25.0,
+      "min": 15.0,
+      "mode": "slider",
+      "step": 1.0
+    },
+    "context": {
+      "id": "70cd17168ad047e9b412746cff9a6bec",
+      "parent_id": null,
+      "user_id": "304962fa73c6450998d60556f3e196e4"
+    },
+    "entity_id": "input_number.slider1",
+    "last_changed": "2019-10-18T09:09:09.020286+00:00",
+    "last_updated": "2019-10-18T09:09:09.020286+00:00",
+    "state": "19.0"
+  },
+  {
+    "attributes": {
+      "editable": true,
+      "friendly_name": "Dan",
+      "id": "a13a4f0a5a924218ba7c0b70183030cd",
+      "user_id": "304962fa73c6450998d60556f3e196e4"
+    },
+    "context": {
+      "id": "4cd9a42780ed472b9fc63673943b5a19",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "person.dan",
+    "last_changed": "2019-10-18T08:13:20.934208+00:00",
+    "last_updated": "2019-10-18T08:13:25.640277+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Updater",
+      "newest_version": "0.100.2",
+      "release_notes": "https://www.home-assistant.io/latest-release-notes/"
+    },
+    "context": {
+      "id": "74c0abe4f16948759a11dc637ea7215b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "binary_sensor.updater",
+    "last_changed": "2019-10-18T09:13:19.691541+00:00",
+    "last_updated": "2019-10-18T09:13:19.691541+00:00",
+    "state": "on"
+  },
+  {
+    "attributes": {
+      "friendly_name": "total_yield",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "6165a069646442179525fa91d7aa1bf7",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.total_yield",
+    "last_changed": "2019-10-18T10:47:02.488348+00:00",
+    "last_updated": "2019-10-18T10:47:02.488348+00:00",
+    "state": "621.193"
+  },
+  {
+    "attributes": {
+      "friendly_name": "pv_gen_meter",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "6db377c7d80048c1bc87235840df4bc6",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.pv_gen_meter",
+    "last_changed": "2019-10-18T10:47:02.488087+00:00",
+    "last_updated": "2019-10-18T10:47:02.488087+00:00",
+    "state": "621.193"
+  },
+  {
+    "attributes": {
+      "friendly_name": "grid_power_absorbed",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "9761f6e3c2534748bc8d26e3708417f1",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.grid_power_absorbed",
+    "last_changed": "2019-10-18T08:13:21.129559+00:00",
+    "last_updated": "2019-10-18T08:13:21.129559+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "voltage_l3",
+      "unit_of_measurement": "V"
+    },
+    "context": {
+      "id": "b8616f4205b243ad93d96d06e5c52403",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.voltage_l3",
+    "last_changed": "2019-10-18T08:13:21.129797+00:00",
+    "last_updated": "2019-10-18T08:13:21.129797+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "grid_total_absorbed",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "c69b1848205e4d44bfeb55c16d401663",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.grid_total_absorbed",
+    "last_changed": "2019-10-18T08:13:21.130030+00:00",
+    "last_updated": "2019-10-18T08:13:21.130030+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "voltage_l2",
+      "unit_of_measurement": "V"
+    },
+    "context": {
+      "id": "616fc4731731411a8d261f660442b35f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.voltage_l2",
+    "last_changed": "2019-10-18T08:13:21.130250+00:00",
+    "last_updated": "2019-10-18T08:13:21.130250+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "grid_total_yield",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "3bd130cb974a41e9b8d010298e6b7758",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.grid_total_yield",
+    "last_changed": "2019-10-18T08:13:21.130652+00:00",
+    "last_updated": "2019-10-18T08:13:21.130652+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "total_consumption",
+      "unit_of_measurement": "kWh"
+    },
+    "context": {
+      "id": "26e4e379263f43b1963a311306ea8501",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.total_consumption",
+    "last_changed": "2019-10-18T08:13:27.715954+00:00",
+    "last_updated": "2019-10-18T08:13:27.715954+00:00",
+    "state": "0.0"
+  },
+  {
+    "attributes": {
+      "friendly_name": "pv_power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "71af8c004d1f450b949b098034bac3ba",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.pv_power",
+    "last_changed": "2019-10-18T10:46:56.358483+00:00",
+    "last_updated": "2019-10-18T10:46:56.358483+00:00",
+    "state": "319"
+  },
+  {
+    "attributes": {
+      "friendly_name": "frequency",
+      "unit_of_measurement": "Hz"
+    },
+    "context": {
+      "id": "f27d15c0d4024308baff4b5206a14d64",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.frequency",
+    "last_changed": "2019-10-18T10:47:08.518561+00:00",
+    "last_updated": "2019-10-18T10:47:08.518561+00:00",
+    "state": "49.97"
+  },
+  {
+    "attributes": {
+      "friendly_name": "grid_power_supplied",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "1c23b4dab79a4b7199185b8adb4e1212",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.grid_power_supplied",
+    "last_changed": "2019-10-18T08:13:21.131563+00:00",
+    "last_updated": "2019-10-18T08:13:21.131563+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "voltage_l1",
+      "unit_of_measurement": "V"
+    },
+    "context": {
+      "id": "3a15f6fd994e4c63b1db81691b99dd89",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.voltage_l1",
+    "last_changed": "2019-10-18T10:47:08.518274+00:00",
+    "last_updated": "2019-10-18T10:47:08.518274+00:00",
+    "state": "232.08"
+  },
+  {
+    "attributes": {
+      "friendly_name": "grid_power",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "dd6a46cee4c4488a804443f32295d9e2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.grid_power",
+    "last_changed": "2019-10-18T10:46:56.358196+00:00",
+    "last_updated": "2019-10-18T10:46:56.358196+00:00",
+    "state": "319"
+  },
+  {
+    "attributes": {
+      "friendly_name": "daily_yield",
+      "unit_of_measurement": "Wh"
+    },
+    "context": {
+      "id": "39e2734bfecf4264a0f7c80baf08890e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.daily_yield",
+    "last_changed": "2019-10-18T10:47:08.517978+00:00",
+    "last_updated": "2019-10-18T10:47:08.517978+00:00",
+    "state": "1149"
+  },
+  {
+    "attributes": {
+      "friendly_name": "current_consumption",
+      "unit_of_measurement": "W"
+    },
+    "context": {
+      "id": "031b0838cd32448c8d700321d46d3c6a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.current_consumption",
+    "last_changed": "2019-10-18T08:13:21.132462+00:00",
+    "last_updated": "2019-10-18T08:13:21.132462+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "friendly_name": "status",
+      "unit_of_measurement": ""
+    },
+    "context": {
+      "id": "8bf054d91d5745698706f01ca4d16086",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.status",
+    "last_changed": "2019-10-18T08:13:27.716569+00:00",
+    "last_updated": "2019-10-18T08:13:27.716569+00:00",
+    "state": "307"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Current Version",
+      "icon": "mdi:package-up",
+      "source": "Local"
+    },
+    "context": {
+      "id": "82cb805acff041c19b01de9bbc926983",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.current_version",
+    "last_changed": "2019-10-18T08:13:21.132992+00:00",
+    "last_updated": "2019-10-18T08:13:21.132992+00:00",
+    "state": "0.98.1"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Uptime",
+      "icon": "mdi:clock",
+      "unit_of_measurement": "days"
+    },
+    "context": {
+      "id": "4eb6347eba9847da8052e32e75209996",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.uptime",
+    "last_changed": "2019-10-18T10:44:40.002477+00:00",
+    "last_updated": "2019-10-18T10:44:40.002477+00:00",
+    "state": "0.11"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Home",
+      "hidden": true,
+      "icon": "mdi:home",
+      "latitude": 51.893616183362056,
+      "longitude": -1.524882317025913,
+      "radius": 100
+    },
+    "context": {
+      "id": "85a3973259404765aabd595f8d228e2a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "zone.home",
+    "last_changed": "2019-10-18T08:13:21.152760+00:00",
+    "last_updated": "2019-10-18T08:13:21.152760+00:00",
+    "state": "zoning"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #00",
+      "icon": ""
+    },
+    "context": {
+      "id": "7d85dbf2d740436face2a1960730738b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_00",
+    "last_changed": "2019-10-18T08:13:21.832471+00:00",
+    "last_updated": "2019-10-18T08:13:21.832471+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #06",
+      "icon": ""
+    },
+    "context": {
+      "id": "3700a7eb52d3417cb594c6fe45602dbd",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_06",
+    "last_changed": "2019-10-18T08:13:21.832613+00:00",
+    "last_updated": "2019-10-18T08:13:21.832613+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #07",
+      "icon": ""
+    },
+    "context": {
+      "id": "eebfabf95beb4deb80a331bb6a32d31c",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_07",
+    "last_changed": "2019-10-18T08:13:21.832746+00:00",
+    "last_updated": "2019-10-18T08:13:21.832746+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #01",
+      "icon": ""
+    },
+    "context": {
+      "id": "1aa52d78666344a18f2f624d7113b984",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_01",
+    "last_changed": "2019-10-18T08:13:21.832876+00:00",
+    "last_updated": "2019-10-18T08:13:21.832876+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #07",
+      "icon": ""
+    },
+    "context": {
+      "id": "1975d0f334ba4392b27ba6bf0d282f4d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_07",
+    "last_changed": "2019-10-18T08:13:21.833005+00:00",
+    "last_updated": "2019-10-18T08:13:21.833005+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #14",
+      "icon": ""
+    },
+    "context": {
+      "id": "e04ce35177464e498ccb799327683b31",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_14",
+    "last_changed": "2019-10-18T08:13:21.833138+00:00",
+    "last_updated": "2019-10-18T08:13:21.833138+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #08",
+      "icon": ""
+    },
+    "context": {
+      "id": "6345e3270245490185ae2fed4ec0dba9",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_08",
+    "last_changed": "2019-10-18T08:13:21.833266+00:00",
+    "last_updated": "2019-10-18T08:13:21.833266+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #02",
+      "icon": ""
+    },
+    "context": {
+      "id": "50971862057340aabd8bb1c87014f50f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_02",
+    "last_changed": "2019-10-18T08:13:21.833393+00:00",
+    "last_updated": "2019-10-18T08:13:21.833393+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #10",
+      "icon": ""
+    },
+    "context": {
+      "id": "1664074a47b046799f01b77fad5c6f5d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_10",
+    "last_changed": "2019-10-18T08:13:21.833519+00:00",
+    "last_updated": "2019-10-18T08:13:21.833519+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #10",
+      "icon": ""
+    },
+    "context": {
+      "id": "24a1ffcfbe344e8e8bc8aedf0a355813",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_10",
+    "last_changed": "2019-10-18T08:13:21.833670+00:00",
+    "last_updated": "2019-10-18T08:13:21.833670+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #03",
+      "icon": ""
+    },
+    "context": {
+      "id": "322b9377655c47e29592e8cdee2171b1",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_03",
+    "last_changed": "2019-10-18T08:13:21.833802+00:00",
+    "last_updated": "2019-10-18T08:13:21.833802+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #09",
+      "icon": ""
+    },
+    "context": {
+      "id": "4bc7d10f19ba4c48835070494993babf",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_09",
+    "last_changed": "2019-10-18T08:13:21.833933+00:00",
+    "last_updated": "2019-10-18T08:13:21.833933+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #03",
+      "icon": ""
+    },
+    "context": {
+      "id": "92fb6e55e43645e6bb410bb7012e170b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_03",
+    "last_changed": "2019-10-18T08:13:21.834058+00:00",
+    "last_updated": "2019-10-18T08:13:21.834058+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #02",
+      "icon": ""
+    },
+    "context": {
+      "id": "feeab62b8a1d4ffb82494c193c5ebe05",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_02",
+    "last_changed": "2019-10-18T08:13:21.834183+00:00",
+    "last_updated": "2019-10-18T08:13:21.834183+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #08",
+      "icon": ""
+    },
+    "context": {
+      "id": "dad6aba13d9944b48ff2d3eaab3b9025",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_08",
+    "last_changed": "2019-10-18T08:13:21.834312+00:00",
+    "last_updated": "2019-10-18T08:13:21.834312+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #04",
+      "icon": ""
+    },
+    "context": {
+      "id": "1bbc8835246c449cb4ecd699c72bf8db",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_04",
+    "last_changed": "2019-10-18T08:13:21.834438+00:00",
+    "last_updated": "2019-10-18T08:13:21.834438+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #10",
+      "icon": ""
+    },
+    "context": {
+      "id": "a1084871924b42b8a3abd65a048141bb",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_10",
+    "last_changed": "2019-10-18T08:13:21.834568+00:00",
+    "last_updated": "2019-10-18T08:13:21.834568+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #04",
+      "icon": ""
+    },
+    "context": {
+      "id": "174ed1e5967f487aaf8f41916c623c29",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_04",
+    "last_changed": "2019-10-18T08:13:21.834694+00:00",
+    "last_updated": "2019-10-18T08:13:21.834694+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #11",
+      "icon": ""
+    },
+    "context": {
+      "id": "b9d8f0d6023f405e903d90a905f23ec5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_11",
+    "last_changed": "2019-10-18T08:13:21.834819+00:00",
+    "last_updated": "2019-10-18T08:13:21.834819+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #02",
+      "icon": ""
+    },
+    "context": {
+      "id": "2ba34858bbde4a7c828bb5dfac97b78e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_02",
+    "last_changed": "2019-10-18T08:13:21.834944+00:00",
+    "last_updated": "2019-10-18T08:13:21.834944+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #11",
+      "icon": ""
+    },
+    "context": {
+      "id": "2dd1ea8198044632a635ba7f3efbc7cb",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_11",
+    "last_changed": "2019-10-18T08:13:21.835070+00:00",
+    "last_updated": "2019-10-18T08:13:21.835070+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #07",
+      "icon": ""
+    },
+    "context": {
+      "id": "8dcf3d4c2cdb45179f48b9add9ab6344",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_07",
+    "last_changed": "2019-10-18T08:13:21.835196+00:00",
+    "last_updated": "2019-10-18T08:13:21.835196+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #06",
+      "icon": ""
+    },
+    "context": {
+      "id": "3d7f049bf251486ab7e7428ca4448a7a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_06",
+    "last_changed": "2019-10-18T08:13:21.835321+00:00",
+    "last_updated": "2019-10-18T08:13:21.835321+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #04",
+      "icon": ""
+    },
+    "context": {
+      "id": "5bc7c20082a84c38a9350f0e8b77551d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_04",
+    "last_changed": "2019-10-18T08:13:21.835446+00:00",
+    "last_updated": "2019-10-18T08:13:21.835446+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #12",
+      "icon": ""
+    },
+    "context": {
+      "id": "1c1dca7f22364535ba912252510905d4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_12",
+    "last_changed": "2019-10-18T08:13:21.835571+00:00",
+    "last_updated": "2019-10-18T08:13:21.835571+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #05",
+      "icon": ""
+    },
+    "context": {
+      "id": "ebeea8bee38b4a41b48176cd9c46dde5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_05",
+    "last_changed": "2019-10-18T08:13:21.835706+00:00",
+    "last_updated": "2019-10-18T08:13:21.835706+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #09",
+      "icon": ""
+    },
+    "context": {
+      "id": "9cf955c09ae045568c2ebf94791e09eb",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_09",
+    "last_changed": "2019-10-18T08:13:21.835835+00:00",
+    "last_updated": "2019-10-18T08:13:21.835835+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #00",
+      "icon": ""
+    },
+    "context": {
+      "id": "aa008704b9ed44af888666b2aacbc7c1",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_00",
+    "last_changed": "2019-10-18T08:13:21.835961+00:00",
+    "last_updated": "2019-10-18T08:13:21.835961+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #00",
+      "icon": ""
+    },
+    "context": {
+      "id": "78292d9dfda745b4ae6ca1787fb11be2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_00",
+    "last_changed": "2019-10-18T08:13:21.836086+00:00",
+    "last_updated": "2019-10-18T08:13:21.836086+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #13",
+      "icon": ""
+    },
+    "context": {
+      "id": "8f52ac55381f4a9faf7c289359ec9747",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_13",
+    "last_changed": "2019-10-18T08:13:21.836211+00:00",
+    "last_updated": "2019-10-18T08:13:21.836211+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #12",
+      "icon": ""
+    },
+    "context": {
+      "id": "9f357aabf53d4c2d8bdcb53383c90f16",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_12",
+    "last_changed": "2019-10-18T08:13:21.836336+00:00",
+    "last_updated": "2019-10-18T08:13:21.836336+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #01",
+      "icon": ""
+    },
+    "context": {
+      "id": "72c6097da120423cabff7e0545035051",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_01",
+    "last_changed": "2019-10-18T08:13:21.836461+00:00",
+    "last_updated": "2019-10-18T08:13:21.836461+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #03",
+      "icon": ""
+    },
+    "context": {
+      "id": "7f833aa9084544789987f73fcf2414c9",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_03",
+    "last_changed": "2019-10-18T08:13:21.836586+00:00",
+    "last_updated": "2019-10-18T08:13:21.836586+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #05",
+      "icon": ""
+    },
+    "context": {
+      "id": "62a4c643a73844438c8ab5698c41b8e3",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_05",
+    "last_changed": "2019-10-18T08:13:21.836714+00:00",
+    "last_updated": "2019-10-18T08:13:21.836714+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #01",
+      "icon": ""
+    },
+    "context": {
+      "id": "a859414db3034bb684053e0da267ffe4",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_01",
+    "last_changed": "2019-10-18T08:13:21.836840+00:00",
+    "last_updated": "2019-10-18T08:13:21.836840+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #14",
+      "icon": ""
+    },
+    "context": {
+      "id": "fc7b8b34265b4f75a1f48a8f1501fe81",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_14",
+    "last_changed": "2019-10-18T08:13:21.836965+00:00",
+    "last_updated": "2019-10-18T08:13:21.836965+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #11",
+      "icon": ""
+    },
+    "context": {
+      "id": "3cad9b60d4644c4eb14a9a99191e0334",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_11",
+    "last_changed": "2019-10-18T08:13:21.837095+00:00",
+    "last_updated": "2019-10-18T08:13:21.837095+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #15",
+      "icon": ""
+    },
+    "context": {
+      "id": "e18467b759754eb9883f4067128a42e5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_15",
+    "last_changed": "2019-10-18T08:13:21.837223+00:00",
+    "last_updated": "2019-10-18T08:13:21.837223+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #15",
+      "icon": ""
+    },
+    "context": {
+      "id": "dd4727629cde4fdfb4db0d35d1178b54",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_15",
+    "last_changed": "2019-10-18T08:13:21.837349+00:00",
+    "last_updated": "2019-10-18T08:13:21.837349+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #06",
+      "icon": ""
+    },
+    "context": {
+      "id": "584eb7739b784032a88722b4c6235327",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_06",
+    "last_changed": "2019-10-18T08:13:21.837478+00:00",
+    "last_updated": "2019-10-18T08:13:21.837478+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #15",
+      "icon": ""
+    },
+    "context": {
+      "id": "9015438782a4468f9fa6bbbf4c3482da",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_15",
+    "last_changed": "2019-10-18T08:13:21.837610+00:00",
+    "last_updated": "2019-10-18T08:13:21.837610+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #12",
+      "icon": ""
+    },
+    "context": {
+      "id": "a7a5f32c22384a03a914f268871eaa9e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_12",
+    "last_changed": "2019-10-18T08:13:21.837736+00:00",
+    "last_updated": "2019-10-18T08:13:21.837736+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #13",
+      "icon": ""
+    },
+    "context": {
+      "id": "32b6a7bb5f4a4d06a2e485cf3cb7a19e",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_13",
+    "last_changed": "2019-10-18T08:13:21.837861+00:00",
+    "last_updated": "2019-10-18T08:13:21.837861+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #13",
+      "icon": ""
+    },
+    "context": {
+      "id": "6f535d53ac1949ec8343fd23c1c5d7b8",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_13",
+    "last_changed": "2019-10-18T08:13:21.837986+00:00",
+    "last_updated": "2019-10-18T08:13:21.837986+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 2 Pin #05",
+      "icon": ""
+    },
+    "context": {
+      "id": "aacce0726bba4687a0976e13eca8d303",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_2_pin_05",
+    "last_changed": "2019-10-18T08:13:21.838132+00:00",
+    "last_updated": "2019-10-18T08:13:21.838132+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #09",
+      "icon": ""
+    },
+    "context": {
+      "id": "a0a9713d85fd472087fdd37f4ad77a22",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_09",
+    "last_changed": "2019-10-18T08:13:21.838263+00:00",
+    "last_updated": "2019-10-18T08:13:21.838263+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 0 Pin #14",
+      "icon": ""
+    },
+    "context": {
+      "id": "84d151a846104922bc25447614529d78",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_0_pin_14",
+    "last_changed": "2019-10-18T08:13:21.838392+00:00",
+    "last_updated": "2019-10-18T08:13:21.838392+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Light Bank 1 Pin #08",
+      "icon": ""
+    },
+    "context": {
+      "id": "8bd6798c53eb4a6bac86157c8ecfd852",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.light_bank_1_pin_08",
+    "last_changed": "2019-10-18T08:13:23.147720+00:00",
+    "last_updated": "2019-10-18T08:13:23.147720+00:00",
+    "state": "on"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #03",
+      "icon": ""
+    },
+    "context": {
+      "id": "d4d67c5760484f648a8239757f0ef36d",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_03",
+    "last_changed": "2019-10-18T08:13:21.804918+00:00",
+    "last_updated": "2019-10-18T08:13:21.804918+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #14",
+      "icon": ""
+    },
+    "context": {
+      "id": "326554944fdb4eb6a5695f63df754341",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_14",
+    "last_changed": "2019-10-18T08:13:21.805070+00:00",
+    "last_updated": "2019-10-18T08:13:21.805070+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #07",
+      "icon": ""
+    },
+    "context": {
+      "id": "c296721aa89648dca23979d01e2e5999",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_07",
+    "last_changed": "2019-10-18T08:13:21.805204+00:00",
+    "last_updated": "2019-10-18T08:13:21.805204+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #00",
+      "icon": ""
+    },
+    "context": {
+      "id": "610d7036b9a64da2ac0259368a778fed",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_00",
+    "last_changed": "2019-10-18T08:13:21.805336+00:00",
+    "last_updated": "2019-10-18T08:13:21.805336+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #11",
+      "icon": ""
+    },
+    "context": {
+      "id": "9acc033966da4636906928e0a1a7ca1a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_11",
+    "last_changed": "2019-10-18T08:13:21.805466+00:00",
+    "last_updated": "2019-10-18T08:13:21.805466+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #04",
+      "icon": ""
+    },
+    "context": {
+      "id": "c90400ecfef84ebcbe531f314736cfbe",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_04",
+    "last_changed": "2019-10-18T08:13:21.805632+00:00",
+    "last_updated": "2019-10-18T08:13:21.805632+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #15",
+      "icon": ""
+    },
+    "context": {
+      "id": "690a5eee57c24ae2bb1078f9f9cf863a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_15",
+    "last_changed": "2019-10-18T08:13:21.805773+00:00",
+    "last_updated": "2019-10-18T08:13:21.805773+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #08",
+      "icon": ""
+    },
+    "context": {
+      "id": "37349e3799d247328fea9609af3239bf",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_08",
+    "last_changed": "2019-10-18T08:13:21.805904+00:00",
+    "last_updated": "2019-10-18T08:13:21.805904+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #01",
+      "icon": ""
+    },
+    "context": {
+      "id": "2b8b703cf3e84a34bd4560e5be1c9df2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_01",
+    "last_changed": "2019-10-18T08:13:21.806031+00:00",
+    "last_updated": "2019-10-18T08:13:21.806031+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #12",
+      "icon": ""
+    },
+    "context": {
+      "id": "8df3477406c245d0889f8c4315c89fbd",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_12",
+    "last_changed": "2019-10-18T08:13:21.806163+00:00",
+    "last_updated": "2019-10-18T08:13:21.806163+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #05",
+      "icon": ""
+    },
+    "context": {
+      "id": "2f69a2bd627a4f84b4e07bd252d9010f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_05",
+    "last_changed": "2019-10-18T08:13:21.806289+00:00",
+    "last_updated": "2019-10-18T08:13:21.806289+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #09",
+      "icon": ""
+    },
+    "context": {
+      "id": "c9b5edf2dc0f4198b5d6c7914ec370f5",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_09",
+    "last_changed": "2019-10-18T08:13:21.806415+00:00",
+    "last_updated": "2019-10-18T08:13:21.806415+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #02",
+      "icon": ""
+    },
+    "context": {
+      "id": "222d32486c2448c599679cacd89ff195",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_02",
+    "last_changed": "2019-10-18T08:13:21.806541+00:00",
+    "last_updated": "2019-10-18T08:13:21.806541+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #13",
+      "icon": ""
+    },
+    "context": {
+      "id": "98fce55a01834a3b9419879e1288dc23",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_13",
+    "last_changed": "2019-10-18T08:13:21.806666+00:00",
+    "last_updated": "2019-10-18T08:13:21.806666+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #06",
+      "icon": ""
+    },
+    "context": {
+      "id": "2b1c228be879400ead66f210aeb96771",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_06",
+    "last_changed": "2019-10-18T08:13:21.806791+00:00",
+    "last_updated": "2019-10-18T08:13:21.806791+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "WS Manifold 0 Pin #10",
+      "icon": ""
+    },
+    "context": {
+      "id": "247d32b0952741c6a8bee829af92bada",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.ws_manifold_0_pin_10",
+    "last_changed": "2019-10-18T08:13:21.806916+00:00",
+    "last_updated": "2019-10-18T08:13:21.806916+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Hot Water",
+      "icon": ""
+    },
+    "context": {
+      "id": "c4181f2be4a84000b71936b621b1c186",
+      "parent_id": null,
+      "user_id": "304962fa73c6450998d60556f3e196e4"
+    },
+    "entity_id": "switch.hot_water",
+    "last_changed": "2019-10-18T10:44:43.420093+00:00",
+    "last_updated": "2019-10-18T10:44:43.420093+00:00",
+    "state": "on"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Heating Demand",
+      "icon": ""
+    },
+    "context": {
+      "id": "7df05b88ebd84dd58225849aed29653a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "switch.heating_demand",
+    "last_changed": "2019-10-18T08:13:21.830747+00:00",
+    "last_updated": "2019-10-18T08:13:21.830747+00:00",
+    "state": "off"
+  },
+  {
+    "attributes": {
+      "auto": true,
+      "entity_id": [ "switch.heating_demand", "switch.hot_water", "switch.light_bank_0_pin_00", "switch.light_bank_0_pin_01", "switch.light_bank_0_pin_02", "switch.light_bank_0_pin_03", "switch.light_bank_0_pin_04", "switch.light_bank_0_pin_05", "switch.light_bank_0_pin_06", "switch.light_bank_0_pin_07", "switch.light_bank_0_pin_08", "switch.light_bank_0_pin_09", "switch.light_bank_0_pin_10", "switch.light_bank_0_pin_11", "switch.light_bank_0_pin_12", "switch.light_bank_0_pin_13", "switch.light_bank_0_pin_14", "switch.light_bank_0_pin_15", "switch.light_bank_1_pin_00", "switch.light_bank_1_pin_01", "switch.light_bank_1_pin_02", "switch.light_bank_1_pin_03", "switch.light_bank_1_pin_04", "switch.light_bank_1_pin_05", "switch.light_bank_1_pin_06", "switch.light_bank_1_pin_07", "switch.light_bank_1_pin_08", "switch.light_bank_1_pin_09", "switch.light_bank_1_pin_10", "switch.light_bank_1_pin_11", "switch.light_bank_1_pin_12", "switch.light_bank_1_pin_13", "switch.light_bank_1_pin_14", "switch.light_bank_1_pin_15", "switch.light_bank_2_pin_00", "switch.light_bank_2_pin_01", "switch.light_bank_2_pin_02", "switch.light_bank_2_pin_03", "switch.light_bank_2_pin_04", "switch.light_bank_2_pin_05", "switch.light_bank_2_pin_06", "switch.light_bank_2_pin_07", "switch.light_bank_2_pin_08", "switch.light_bank_2_pin_09", "switch.light_bank_2_pin_10", "switch.light_bank_2_pin_11", "switch.light_bank_2_pin_12", "switch.light_bank_2_pin_13", "switch.light_bank_2_pin_14", "switch.light_bank_2_pin_15", "switch.ws_manifold_0_pin_00", "switch.ws_manifold_0_pin_01", "switch.ws_manifold_0_pin_02", "switch.ws_manifold_0_pin_03", "switch.ws_manifold_0_pin_04", "switch.ws_manifold_0_pin_05", "switch.ws_manifold_0_pin_06", "switch.ws_manifold_0_pin_07", "switch.ws_manifold_0_pin_08", "switch.ws_manifold_0_pin_09", "switch.ws_manifold_0_pin_10", "switch.ws_manifold_0_pin_11", "switch.ws_manifold_0_pin_12", "switch.ws_manifold_0_pin_13", "switch.ws_manifold_0_pin_14", "switch.ws_manifold_0_pin_15" ],
+      "friendly_name": "all switches",
+      "hidden": true,
+      "order": 0
+    },
+    "context": {
+      "id": "c60df7ec689242a897d3f6d16767b51b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "group.all_switches",
+    "last_changed": "2019-10-18T08:13:21.960524+00:00",
+    "last_updated": "2019-10-18T08:13:21.960524+00:00",
+    "state": "on"
+  },
+  {
+    "attributes": {
+      "friendly_name": "Dan's SM-G973F",
+      "source_type": "gps"
+    },
+    "context": {
+      "id": "b0ec676c8a684c8da8e2ab7dcf37ec64",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "device_tracker.dan_s_sm_g973f",
+    "last_changed": "2019-10-18T08:13:21.210615+00:00",
+    "last_updated": "2019-10-18T08:13:21.210615+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "auto": true,
+      "entity_id": [],
+      "friendly_name": "all devices",
+      "hidden": true,
+      "order": 1
+    },
+    "context": {
+      "id": "320cc4eba91a44719bc6bd4af99cd696",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "group.all_devices",
+    "last_changed": "2019-10-18T08:13:21.210942+00:00",
+    "last_updated": "2019-10-18T08:13:21.210942+00:00",
+    "state": "unknown"
+  },
+  {
+    "attributes": {
+      "attribution": "Powered by Dark Sky",
+      "forecast": [
+        {
+          "condition": "rainy",
+          "datetime": "2019-10-17T23:00:00",
+          "precipitation": 5.3,
+          "temperature": 13.4,
+          "templow": 7.5,
+          "wind_bearing": 209,
+          "wind_speed": 22.89
+        },
+        {
+          "condition": "rainy",
+          "datetime": "2019-10-18T23:00:00",
+          "precipitation": 0.9,
+          "temperature": 13.6,
+          "templow": 4.5,
+          "wind_bearing": 237,
+          "wind_speed": 18.02
+        },
+        {
+          "condition": "partlycloudy",
+          "datetime": "2019-10-19T23:00:00",
+          "precipitation": 0.2,
+          "temperature": 12.2,
+          "templow": 4.0,
+          "wind_bearing": 356,
+          "wind_speed": 14.46
+        },
+        {
+          "condition": "cloudy",
+          "datetime": "2019-10-20T23:00:00",
+          "precipitation": 1.0,
+          "temperature": 12.9,
+          "templow": 0.9,
+          "wind_bearing": 346,
+          "wind_speed": 12.17
+        },
+        {
+          "condition": "partlycloudy",
+          "datetime": "2019-10-21T23:00:00",
+          "precipitation": 0.1,
+          "temperature": 13.2,
+          "templow": 3.7,
+          "wind_bearing": 177,
+          "wind_speed": 4.75
+        },
+        {
+          "condition": "partlycloudy",
+          "datetime": "2019-10-22T23:00:00",
+          "precipitation": 0.3,
+          "temperature": 14.5,
+          "templow": 7.4,
+          "wind_bearing": 140,
+          "wind_speed": 6.05
+        },
+        {
+          "condition": "partlycloudy",
+          "datetime": "2019-10-23T23:00:00",
+          "precipitation": 0.7,
+          "temperature": 16.6,
+          "templow": 8.5,
+          "wind_bearing": 226,
+          "wind_speed": 9.36
+        },
+        {
+          "condition": "sunny",
+          "datetime": "2019-10-24T23:00:00",
+          "precipitation": 0.4,
+          "temperature": 16.5,
+          "templow": 11.4,
+          "wind_bearing": 142,
+          "wind_speed": 15.81
+        }
+      ],
+      "friendly_name": "Dark Sky",
+      "humidity": 79,
+      "ozone": 338.3,
+      "pressure": 998.86,
+      "temperature": 12.5,
+      "visibility": 6.448,
+      "wind_bearing": 228,
+      "wind_speed": 27.5
+    },
+    "context": {
+      "id": "6b00619613354869b76a75b6a674c9b0",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "weather.dark_sky",
+    "last_changed": "2019-10-18T09:55:23.863050+00:00",
+    "last_updated": "2019-10-18T10:44:46.872295+00:00",
+    "state": "partlycloudy"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host CPU used",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "012b8be49573412f94c90cbd9de78eec",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_cpu_used",
+    "last_changed": "2019-10-18T10:46:21.006827+00:00",
+    "last_updated": "2019-10-18T10:46:21.006827+00:00",
+    "state": "6.4"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Swap free",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "GiB"
+    },
+    "context": {
+      "id": "fab7d2a5aafd4cab81a68b82cc9ceeed",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_swap_free",
+    "last_changed": "2019-10-18T08:13:22.607824+00:00",
+    "last_updated": "2019-10-18T08:13:22.607824+00:00",
+    "state": "4.0"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Disk used percent",
+      "icon": "mdi:harddisk",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "9d936ec9ae43466cbc11a45067da3d61",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_disk_used_percent",
+    "last_changed": "2019-10-18T08:13:22.608373+00:00",
+    "last_updated": "2019-10-18T08:13:22.608373+00:00",
+    "state": "2.8"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Containers RAM used",
+      "icon": "mdi:docker",
+      "unit_of_measurement": "MiB"
+    },
+    "context": {
+      "id": "514605cd982a4944abbbce1be0291ed2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_containers_ram_used",
+    "last_changed": "2019-10-18T10:46:21.003842+00:00",
+    "last_updated": "2019-10-18T10:46:21.003842+00:00",
+    "state": "1252.0"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Swap used",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "GiB"
+    },
+    "context": {
+      "id": "1d3b8ce7c6654f78b1581f20cb275e60",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_swap_used",
+    "last_changed": "2019-10-18T08:13:22.609510+00:00",
+    "last_updated": "2019-10-18T08:13:22.609510+00:00",
+    "state": "0.0"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host RAM used",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "MiB"
+    },
+    "context": {
+      "id": "ae3238b6aa614073972592d4bbffeb33",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_ram_used",
+    "last_changed": "2019-10-18T10:46:21.004417+00:00",
+    "last_updated": "2019-10-18T10:46:21.004417+00:00",
+    "state": "902.0"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Swap used percent",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "2f18b978601240408cdd24c34706c2d2",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_swap_used_percent",
+    "last_changed": "2019-10-18T08:13:22.610662+00:00",
+    "last_updated": "2019-10-18T08:13:22.610662+00:00",
+    "state": "0.0"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host RAM free",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "MiB"
+    },
+    "context": {
+      "id": "2eb14bf5618348efbc583cdbfd14466a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_ram_free",
+    "last_changed": "2019-10-18T10:46:21.005532+00:00",
+    "last_updated": "2019-10-18T10:46:21.005532+00:00",
+    "state": "6969.1"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Containers CPU used",
+      "icon": "mdi:docker",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "b5601b1b6a51472a9c57a9339d050169",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_containers_cpu_used",
+    "last_changed": "2019-10-18T10:46:21.004782+00:00",
+    "last_updated": "2019-10-18T10:46:21.004782+00:00",
+    "state": "4.3"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Disk used",
+      "icon": "mdi:harddisk",
+      "unit_of_measurement": "GiB"
+    },
+    "context": {
+      "id": "f59eaada900c4587a6e316852be3322b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_disk_used",
+    "last_changed": "2019-10-18T08:13:22.613604+00:00",
+    "last_updated": "2019-10-18T08:13:22.613604+00:00",
+    "state": "12.4"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host RAM used percent",
+      "icon": "mdi:memory",
+      "unit_of_measurement": "%"
+    },
+    "context": {
+      "id": "cefdfab607844c78ac7e11cd10841cca",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_ram_used_percent",
+    "last_changed": "2019-10-18T10:45:19.003843+00:00",
+    "last_updated": "2019-10-18T10:45:19.003843+00:00",
+    "state": "11.5"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Containers active",
+      "icon": "mdi:docker",
+      "unit_of_measurement": ""
+    },
+    "context": {
+      "id": "a4c3d3e0d21f40e8a85ddb3b6e7ba29b",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_containers_active",
+    "last_changed": "2019-10-18T08:13:22.615858+00:00",
+    "last_updated": "2019-10-18T08:13:22.615858+00:00",
+    "state": "4"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host Disk free",
+      "icon": "mdi:harddisk",
+      "unit_of_measurement": "GiB"
+    },
+    "context": {
+      "id": "b7f22342b6b14bdf8d775116b1558d8a",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_disk_free",
+    "last_changed": "2019-10-18T08:13:22.616278+00:00",
+    "last_updated": "2019-10-18T08:13:22.616278+00:00",
+    "state": "421.8"
+  },
+  {
+    "attributes": {
+      "friendly_name": "host CPU Temp",
+      "icon": "mdi:thermometer",
+      "unit_of_measurement": "\u00b0C"
+    },
+    "context": {
+      "id": "1235bfb1e82742c39de1840e0f434d0f",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.host_cpu_temp",
+    "last_changed": "2019-10-18T10:46:21.005914+00:00",
+    "last_updated": "2019-10-18T10:46:21.005914+00:00",
+    "state": "35"
+  },
+  {
+    "attributes": {
+      "friendly_name": "hacs",
+      "icon": "mdi:package",
+      "repositories": [
+        {
+          "available version": "0.15.7",
+          "installed version": "0.13.2",
+          "name": "custom-components/hacs"
+        },
+        {
+          "available version": "13",
+          "installed version": "9",
+          "name": "thomasloven/hass-browser_mod"
+        },
+        {
+          "available version": "1.4.1",
+          "installed version": "1.3.5",
+          "name": "maykar/compact-custom-header"
+        },
+        {
+          "available version": "v0.7.0",
+          "installed version": "v0.6.0",
+          "name": "kalkih/mini-graph-card"
+        },
+        {
+          "available version": "v1.4.1",
+          "installed version": "v1.3.2",
+          "name": "bramkragten/weather-card"
+        },
+        {
+          "available version": "1.6.1",
+          "installed version": "1.6.0",
+          "name": "custom-cards/bar-card"
+        }
+      ],
+      "unit_of_measurement": "pending update(s)"
+    },
+    "context": {
+      "id": "8309ebafb9354ea09aefc06e0f7ddcaf",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "sensor.hacs",
+    "last_changed": "2019-10-18T08:13:55.002748+00:00",
+    "last_updated": "2019-10-18T08:13:55.002748+00:00",
+    "state": "6"
+  },
+  {
+    "attributes": {
+      "message": "Login attempt or request with invalid authentication from 192.168.1.115",
+      "title": "Login attempt failed"
+    },
+    "context": {
+      "id": "7f2691285f6443758b4c10e58bd75bc8",
+      "parent_id": null,
+      "user_id": null
+    },
+    "entity_id": "persistent_notification.http_login",
+    "last_changed": "2019-10-18T08:44:55.773768+00:00",
+    "last_updated": "2019-10-18T08:44:55.773768+00:00",
+    "state": "notifying"
+  }
+]
